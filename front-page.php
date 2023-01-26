@@ -1,75 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- mobile metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <!-- site metas -->
-    <title>News</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <?php wp_head(); ?>
-    <!-- fevicon -->
-    <link rel="icon" href="images/fevicon.png" type="image/gif" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700,800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-</head>
-
-<body>
-    <!-- header section start -->
-    <div class="header_section header_bg">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a href="index.html" class="logo"><img src="images/logo.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cycle.html">Our Cycle</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="shop.html">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="news.html">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <div class="login_menu">
-                        <ul>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#"><img src="images/trolly-icon.png"></a></li>
-                            <li><a href="#"><img src="images/search-icon.png"></a></li>
-                        </ul>
-                    </div>
-                    <div></div>
-                </form>
-            </div>
-            <div id="main">
-                <span style="font-size:36px;cursor:pointer; color: #fff" onclick="openNav()"><img
-                        src="images/toggle-icon.png" style="height: 30px;"></span>
-            </div>
-        </nav>
+<?php get_header(); ?>
         <!-- banner section start -->
         <div class="banner_section layout_padding">
             <div id="main_slider" class="carousel slide" data-ride="carousel">
@@ -79,7 +8,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="best_text">Best</div>
-                                    <div class="image_1"><img src="images/img-1.png"></div>
+                                    <div class="image_1"><img src="\theme\wp-content\themes\themed\assets\images\img-1.png"></div>
                                 </div>
                                 <div class="col-md-5">
                                     <h1 class="banner_taital">New Model Cycle</h1>
@@ -95,7 +24,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="best_text">Best</div>
-                                    <div class="image_1"><img src="images/img-1.png"></div>
+                                    <div class="image_1"><img src="\theme\wp-content\themes\themed\assets\images\img-1.png"></div>
                                 </div>
                                 <div class="col-md-5">
                                     <h1 class="banner_taital">New Model Cycle</h1>
@@ -111,7 +40,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="best_text">Best</div>
-                                    <div class="image_1"><img src="images/img-1.png"></div>
+                                    <div class="image_1"><img src="\theme\wp-content\themes\themed\assets\images\img-1.png"></div>
                                 </div>
                                 <div class="col-md-5">
                                     <h1 class="banner_taital">New Model Cycle</h1>
@@ -144,7 +73,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="box_main_1">
-                            <div class="zoomout frame"><img src="images/img-6.png"></div>
+                            <div class="zoomout frame"><img src="\theme\wp-content\themes\themed\assets\images\img-6.png"></div>
                             <div class="padding_15">
                                 <h2 class="speed_text">Speed cycle</h2>
                                 <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
@@ -155,7 +84,7 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="box_main_1">
-                            <div class="zoomout frame"><img src="images/img-7.png"></div>
+                            <div class="zoomout frame"><img src="\theme\wp-content\themes\themed\assets\images\img-7.png"></div>
                             <div class="padding_15">
                                 <h2 class="speed_text">Speed cycle</h2>
                                 <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
@@ -166,7 +95,7 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="box_main_1">
-                            <div class="zoomout frame"><img src="images/img-8.png"></div>
+                            <div class="zoomout frame"><img src="\theme\wp-content\themes\themed\assets\images\img-8.png"></div>
                             <div class="padding_15">
                                 <h2 class="speed_text">Jaump cycle</h2>
                                 <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
@@ -195,18 +124,18 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12">
-                    <div class="call_text"><a href="#"><img src="images/map-icon.png"><span class="padding_left_0">Page
+                    <div class="call_text"><a href="#"><img src="\theme\wp-content\themes\themed\assets\images\map-icon.png"><span class="padding_left_0">Page
                                 when looking at its layou</span></a></div>
-                    <div class="call_text"><a href="#"><img src="images/call-icon.png"><span class="padding_left_0">Call
+                    <div class="call_text"><a href="#"><img src="\theme\wp-content\themes\themed\assets\images\call-icon.png"><span class="padding_left_0">Call
                                 Now +01 123467890</span></a></div>
-                    <div class="call_text"><a href="#"><img src="images/mail-icon.png"><span
+                    <div class="call_text"><a href="#"><img src="\theme\wp-content\themes\themed\assets\images\mail-icon.png"><span
                                 class="padding_left_0">demo@gmail.com</span></a></div>
                     <div class="social_icon">
                         <ul>
-                            <li><a href="#"><img src="images/fb-icon1.png"></a></li>
-                            <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                            <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                            <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                            <li><a href="#"><img src="\theme\wp-content\themes\themed\assets\images\fb-icon1.png"></a></li>
+                            <li><a href="#"><img src="\theme\wp-content\themes\themed\assets\images\twitter-icon.png"></a></li>
+                            <li><a href="#"><img src="\theme\wp-content\themes\themed\assets\images\linkedin-icon.png"></a></li>
+                            <li><a href="#"><img src="\theme\wp-content\themes\themed\assets\images\instagram-icon.png"></a></li>
                         </ul>
                     </div>
                     <input type="text" class="email_text" placeholder="Enter Your Email" name="Enter Your Email">
@@ -215,46 +144,5 @@
             </div>
         </div>
     </div>
-    <!-- footer section end -->
-    <!-- copyright section start -->
-    <div class="copyright_section">
-        <div class="container">
-            <p class="copyright_text">Copyright 2019 All Right Reserved By.<a href="https://html.design"> Free html
-                    Templates</p>
-        </div>
-    </div>
-    <!-- copyright section end -->
 
-    <?php wp_footer(); ?>
-
-    <!-- Javascript files-->
-    <!-- <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/plugin.js"></script>
-    <!-- sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
-    <!-- javascript -->
-    <!-- <script src="js/owl.carousel.js"></script> -->
-    <!-- <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script> -->
-    <!-- <script>
-        // function openNav() {
-        //     document.getElementById("mySidenav").style.width = "250px";
-        //     document.getElementById("main").style.marginLeft = "250px";
-        // }
-
-        // function closeNav() {
-        //     document.getElementById("mySidenav").style.width = "0";
-        //     document.getElementById("main").style.marginLeft = "0";
-
-        // }
-
-        // $("#main").click(function () {
-        //     $("#navbarSupportedContent").toggleClass("nav-normal")
-        // })
-    </script> -->
-</body>
-
-</html>
+    <?php get_footer(); ?>
