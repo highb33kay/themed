@@ -214,7 +214,7 @@ button {
 }
 
 .layout_padding {
-  padding-top: 90px;
+  padding-top: 20px;
   padding-bottom: 0px;
 }
 
@@ -225,7 +225,7 @@ button {
 .header_section {
   width: 100%;
   float: left;
-  background-image: linear-gradient(-13deg, #ffffff 30%, #274d5a 20%);
+  background-image: linear-gradient(-13deg, #ffffff, #274d5a 0%);
   position: relative;
   overflow-x: hidden;
 }
@@ -849,7 +849,6 @@ button {
   float: left;
   background-color: #355764;
   height: auto;
-  padding: 90px 0px;
 }
 .news_taital {
   width: 100%;
@@ -870,6 +869,7 @@ button {
 .news_section_2 {
   width: 100%;
   float: left;
+  color: white;
 }
 .box_main_1 {
   width: 100%;
