@@ -166,4 +166,16 @@ function themed_reg_scripts()
 
 add_action('wp_enqueue_scripts', 'themed_reg_scripts');
 
+function themed_menu()
+{
+    $locations = [
+        'primary' => 'Main',
+        'footer' => 'Footer Menu Items',
+    ];
+
+    register_nav_menus($locations);
+}
+
+add_action('init', 'themed_menu');
+
 ?>
