@@ -27,7 +27,11 @@
     <!-- header section start -->
     <div class="header_section header_bg">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a href="index.html" class="logo"><img src="\theme\wp-content\themes\themed\assets\images\logo.png"></a>
+            <?php if (function_exists('the_custom_logo')) {
+                $custom_logo_id = get_theme_mod('custom_logo');
+                $logo = wp_get_attachment_image_src($custom_logo_id);
+            } ?>
+            <a href="index.html" class="logo"><img src="<?php echo $logo[0]; ?>"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
